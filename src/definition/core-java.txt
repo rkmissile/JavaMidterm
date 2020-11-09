@@ -1,36 +1,90 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-Ans :
+Ans :Programming language is the way to  communicate with computers.
 
 What jdk contains or composed of and define each components?
+
 What is IDE?
+Ans:IDE is an interactive development environment...
+
 What are the IDEs available in the market to support java?
+Ans:Eclipse, IntelliJ
+
 Explain the entire java life cycle.
+
 what is class?
+
 What is object?
+
 What is the entry point of an application?
+
 Why main is static?
+Ans: for being static main method does not need to create any new object to call it any time
+
 Which class is the superclass of all classes?
+
 What is difference between path and classpath variables?
+
 What is the difference between an Interface and Abstract class?
+Ans:An Interface has only abstract methods and Abstract class has at least one abstract method with other regular method.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+Ans:No, to use method,  class needs to implements Interfaces and extend Abstract class.
+
 what is Access Specifier?
+Ans: Access specifier is key words that define the limit of accessibility of variables and methods.
+
 What is OOP ? Define each feature of java OOP.
+Ans:OOP is an object oriented programming concepts. OOP contains the idea of Inheritances, Encapsulation, Polymorphism, Abstraction..
+
 What is Java Package and which package is imported by default?
+Ans: A Java Package is collection of same type of  classes and interfaces. By default java import java.lang package.
+
 What is API? Name list of API that you have used so far.
+Ans: API stands for application programmable interfaces which work as a messenger to connect one application to other.API helps to access data,
+hide complexity, extend functionality and security.
+
 Does java support multiple inheritance, explain why or why not?
+Ans: Yes Java support multiple inheritance through only Implementing multiple interfaces.
+
 What is method overloading and when it happens?
+Ans: when two or more methods has same name with different parameters it calls method overloading.
+
 Explain exceptions in java and how to handle it.
+Ans:Exception is an event that disrupt the normal flow of the program. Java handle the exception with try and catch block,
+    the statement might throw exception need to put in the try block and in catch block parameter need to put exception name.
+
 What is static keyword in java? How it has been used in variables and methods ?
+Ans: Static keyword apply the restriction  and make variable , method common to all and reduce the memory waste by not creating new object.
+    Static keyword make variable as class variable and make method as a class method.
+
 What is final and how it has been used variables and methods?
+Ans: Final is key word that apply the restriction on variable and method by not letting it be overridden.
+
 What is final, finally and finalize?
+Ans: Final is a keyword to apply restriction on class, method and variable, final class can not be inherited, final variable and method can not ber over ridden.
+    Finally is a block of exception handling process, finally block will be always executed whether the exception is handled or not.
+    Finalize is a method, this method is use to perform clean-up process just before the garbage collection.
+
 What is a constructor ?
+Ans: A constructor is special type of method that is used to initialize the object.
+
 Can we have multiple constructors in a class?
+Ans: Yes, we can have multiple constructor with different parameters in a class.
+
 If we don't have a constructor declared, what is called during the object creation?
+Ans: By the default constructor, as same name as class name.
+
 What is "this" keyword in java ?
+Ans: this keyword is used in side the constructor block for variable to identify the variable  as a class variable.
+
 What is "super" keyword in java? How many possible way can you use?
+Ans:super keyword indicate the first one if it is overridden.
+
 What is JVM stand for ?
+Ans: JVM stands for Java Virtual Machine.
+
 Is JVM platform independent?
 What version of java are you using?
 What is JAR stand for ?
