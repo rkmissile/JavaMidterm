@@ -1,5 +1,8 @@
 package math.problems;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class FindMissingNumber {
 
     public static void main(String[] args) {
@@ -9,6 +12,20 @@ public class FindMissingNumber {
          * Write java code to find the missing number from the array. Write static helper method to find it.
          */
         int[] array = new int[] {10, 2, 1, 4, 5, 3, 7, 8, 6};
+
+        Arrays.sort(array);
+
+        int n=10;
+        int numX = n * ((n+1)/2);
+        int numY = 0;
+
+        for(int i: array){
+            numY +=i;
+        }
+
+        System.out.println(numX-numY);
+
+
 
     }
 }
