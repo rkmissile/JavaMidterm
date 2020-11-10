@@ -4,27 +4,34 @@ What is programing language?
 Ans :Programming language is the way to  communicate with computers.
 
 What jdk contains or composed of and define each components?
+Ans: JDK contains JRE,JVM, debugger, compiler and other developing tools
 
 What is IDE?
-Ans:IDE is an interactive development environment...
+Ans:IDE stands for interactive Development Environment which is software application that combines all of the features and tools needed by software developer
 
 What are the IDEs available in the market to support java?
-Ans:Eclipse, IntelliJ
+Ans:IntelliJ, Eclipse, NetBeans, BlueJ, DrJava, Android Studio
 
 Explain the entire java life cycle.
+Ans:Source code > compile > Byte Code > JVM > Object Code
 
 what is class?
+Ans: Class is blueprint of creating object
 
 What is object?
+Ans:Object is an instance of class
 
 What is the entry point of an application?
+Ans:main method is an entry point of any java application.
 
 Why main is static?
 Ans: for being static main method does not need to create any new object to call it any time
 
 Which class is the superclass of all classes?
+Ans: Object class
 
 What is difference between path and classpath variables?
+Ans: Path locates the java tools; Classpath locates the class libraries
 
 What is the difference between an Interface and Abstract class?
 Ans:An Interface has only abstract methods and Abstract class has at least one abstract method with other regular method.
@@ -86,21 +93,46 @@ What is JVM stand for ?
 Ans: JVM stands for Java Virtual Machine.
 
 Is JVM platform independent?
+Ans:No, JVM is platform dependent.
+
 What version of java are you using?
+Ans:JDK 14
+
 What is JAR stand for ?
+Ans:Java ARchive.
+
 What is the difference between JDK and JVM?
+Ans: JDK stands for Java Development Kit which is complete tools for java application development.JDK contains JRE and JVM with other development tools.
+    JVM stand for Java Virtual Machine which provide  virtual environment  to run java application. JVM interpret byte code to object.
+
 What is the difference between JVM and JRE?
+Ans: JRE stands for Java Run Environment which can run any java application/code.JRE is the implementation of JVM which is physically exist.JRE contains JVM and other set of libraries.
+
 What is compile time and run time?
+Ans: Compile time is the time when source code is converted into an executable code. Runtime is the time when executable code started running.
+
 What is heap?
+Ans: Heap is a memory space in JVM.
 How java manage it's memory?
 What is the difference between String, StringBuffer and StringBuilder?
 What is Singleton class?
 What is Serialization and Deserialization?
 when to use transient variable in java?
+
 Difference between while and do..while loop?
+Ans:While loop starts with condition if condition match it will execute the statement inside the while loop.
+    do..while loop: inside do block the statement will execute without any condition then it will check the  condition of the while and
+    if the condition match it will execute the statement of while block.
+
 What is Enum?
+Ans: Enum is a special type of class that contains group constants variable.
+
 What is Iterator?
+Ans: Iterator is an interface which is use as an object to loop through collection like ArrayList and Hashset.
+
 Which one will take more memory, an int or Integer?
+Ans: Integer
+
 Why is String Immutable in Java?
 What is constructor chaining in Java?
 The difference between Serial and Parallel Garbage Collector?
