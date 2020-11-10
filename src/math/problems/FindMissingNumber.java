@@ -15,15 +15,31 @@ public class FindMissingNumber {
 
         Arrays.sort(array);
 
-        int n=10;
-        int numX = n * ((n+1)/2);
-        int numY = 0;
+//        int n=10;
+//        int numX = n * ((n+1)/2);
+//        int numY = 0;
+//
+//        for(int i: array){
+//            numY=numY+i;
+//        }
+//
+//        System.out.println(numX-numY);
 
-        for(int i: array){
-            numY +=i;
+        int sum1=0;
+
+        for(int i=0; i< array.length; i++){
+            sum1=sum1+array[i];
         }
 
-        System.out.println(numX-numY);
+        int sum2=0;
+        for(int i=1; i<=10; i++){
+            sum2 = sum2+i;
+        }
+
+        int missingNumber = sum2 - sum1;
+
+        System.out.println(missingNumber);
+
 
 
 
